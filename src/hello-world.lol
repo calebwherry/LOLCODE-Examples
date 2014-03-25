@@ -4,7 +4,7 @@ BTW ##
 BTW ##  Authors:
 BTW ##
 BTW ##    J. Caleb Wherry
-BTW ##    Daniel Wherry (lame-o)
+BTW ##    Daniel Wherry 
 BTW ##
 BTW ####################################
 BTW ####################################
