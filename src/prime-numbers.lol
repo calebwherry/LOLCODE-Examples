@@ -18,35 +18,41 @@ HAI 1.2
   VISIBLE "Prime Number Generator..."
   VISIBLE ""
 	
-  I HAS A num ITZ 2
 
   VISIBLE "GIMMEH A NUMBR 2 ST0P TEH PRIME L00PZ"
-  I HAS A numStop 
-  GIMMEH numStop
+  I HAS A numStop, GIMMEH numStop
+  numStop IS NOW A NUMBR
  
 
-  I HAS A a ITZ 2
-  IM IN YR primeLoopOne UPPIN YR num TIL BOTH SAEM num AN BIGGR OF num AN numStop
-	I HAS A isPrime 
-	isPrime R WIN
+  
+  
+  
+  
+  IM IN YR primeLoopOne UPPIN YR num  TIL BOTH SAEM num AN numStop
+   	
+	I HAS A isPrime ITZ WIN
+	isPrime IS NOW A TROOF
 	
-	IM IN YR primeLoopTwo UPPIN YR a WILE DIFFRINT a AN BIGGR OF a AN num
-		I HAS A b 
-		b R MOD OF a AN num  
-		BOTH SAEM b AN 0
+  	
+	IM IN YR primeLoopTwo UPPIN YR a TIL BOTH SAEM a AN num
+			 
+		I HAS A b ITZ SUM OF a AN 2
+		
+		BOTH SAEM 0 AN MOD OF num AN b
 		O RLY?
 		YA RLY
   			isPrime R FAIL
-			GTFO
+			 GTFO
 		NO WAI
 			BTW Nada
 		OIC
 	IM OUTTA YR primeLoopTwo
 	
-	BOTH OF isPrime AN DIFFRINT num AN 1
+	isPrime 
 	O RLY?
 	YA RLY
 		VISIBLE SMOOSH num " is Prime." MKAY
+		
 	NO WAI 
 		BTW nada
 	OIC
